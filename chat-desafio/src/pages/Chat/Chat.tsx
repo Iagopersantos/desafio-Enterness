@@ -1,7 +1,7 @@
 import { TextField } from "@mui/material";
 import { useEffect, useRef, useState } from "react";
 import { Socket } from "socket.io-client";
-import { Container, Body, Footer, Header } from "./style";
+import { Container, Body, Footer } from "./style";
 import SendIcon from '@mui/icons-material/Send';
 import '../../App.css'
 
@@ -83,16 +83,6 @@ export default function Chat({ socket }: ChatProps) {
     return (
         <div>
             <Container>
-                <Header>
-                    {messageList.map((message) => {
-                        return (
-
-                            <div><strong style={{color: "black"}}>{message.author} /</strong></div>
-                        )
-                    })
-
-                    }
-                </Header>
                 <Body>
                     {
                         messageList.map((message, index) => {

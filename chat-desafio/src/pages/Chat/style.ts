@@ -9,18 +9,6 @@ border-radius: 6px;
 box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.3);
 `;
 
-export const Header = styled.div`
-width: 95%;
-display:flex;
-height: 50px;
-padding: 0 10px;
-align-items: center;
-margin-bottom: 10px;
-border-radius: 6px;
-border: 1px solid black;
-box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.2)
-`;
-
 export const Body = styled.div`
 padding: 0 10px;
 height: 550px;
