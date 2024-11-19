@@ -25,6 +25,6 @@ box-sizing: border-box;
 display:flex;
 align-items: center;
 bottom: 0;
-height: 100px;
+height: 200px;
 `;
 
