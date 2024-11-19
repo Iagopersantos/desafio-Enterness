@@ -18,4 +18,4 @@ $ npm run dev
 # Running the Server
 ````
 # development
-$ np run start
+$ np run dev
